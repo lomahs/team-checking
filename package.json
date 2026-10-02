@@ -1,0 +1,10 @@
+{
+  "name": "teams-permission-probe",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Throwaway spike: checks which Microsoft Teams / Graph permissions your account has.",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env probe.mjs"
+  }
+}
